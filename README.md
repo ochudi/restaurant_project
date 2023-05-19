@@ -25,7 +25,7 @@ This project is a submission for the Technology Innovation Club hackathon. It is
 
 ## Demo
 
-A live demo of the project can be found [here](https://example.com).
+A live demo of the project can be found [here](https://ochudi-restaurant.netlify.app).
 
 ## Technologies Used
 
