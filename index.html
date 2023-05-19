@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.jpg" alt="Restaurant Logo" class="logo" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Welcome to Chudi's Restaurant</h1>
+        <p>Experience the best flavors in town</p>
+        <a href="#menu" class="btn">View Menu</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About Us</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <img src="./img/about-image.jpg" alt="Restaurant Interior" />
+            </div>
+            <div class="about-description">
+              <h3>Discover Our Restaurant</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                aliquet mi quis neque malesuada, eget blandit lorem sagittis. Ut
+                ac libero vitae nunc eleifend pellentesque. Nam in purus
+                rhoncus, efficitur dui eu, tincidunt tellus. Nulla facilisi.
+              </p>
+              <p>
+                Suspendisse et tortor sed arcu feugiat lacinia. Integer
+                ultricies dignissim justo eu suscipit. Aenean dapibus velit
+                vitae massa accumsan, eget varius metus auctor.
+              </p>
+              <p>
+                Proin consequat neque purus, id aliquet velit volutpat ac. Sed
+                malesuada euismod turpis non gravida. Integer iaculis nunc a mi
+                volutpat, vel tempor dolor fermentum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="container">
+          <h2>Menu</h2>
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="./img/appetizer.jpg" alt="Appetizer" />
+              <div class="menu-item-info">
+                <h3>Appetizer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$9.99</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img src="./img/main-course.jpeg" alt="Main Course" />
+              <div class="menu-item-info">
+                <h3>Main Course</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$19.99</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img src="./img/dessert.jpg" alt="Dessert" />
+              <div class="menu-item-info">
+                <h3>Dessert</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$6.99</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img src="./img/beverage.jpg" alt="Beverage" />
+              <div class="menu-item-info">
+                <h3>Beverage</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$3.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+          <img src="./gallery/restaurant-1.jpg" alt="Image 1" />
+          <img src="./gallery/restaurant-2.jpg" alt="Image 2" />
+          <img src="./gallery/restaurant-3.jpg" alt="Image 3" />
+          <!-- Add more images here -->
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="contact-info">
+            <div class="address">
+              <h3>Address</h3>
+              <p>123 Restaurant Street, City, Country</p>
+            </div>
+            <div class="phone">
+              <h3>Phone</h3>
+              <p>+1 123 456 7890</p>
+            </div>
+            <div class="hours">
+              <h3>Operating Hours</h3>
+              <p>
+                Monday - Friday: 10:00 AM - 10:00 PM<br />Saturday - Sunday:
+                11:00 AM - 11:00 PM
+              </p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send us a message</h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About Us</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://facebook.com/Chukwudi-Ofoma"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/Captain_Chudi"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://instagram.com/chudi_ofoma"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
