@@ -36,7 +36,7 @@ A live demo of the project can be found [here](https://ochudi-restaurant.netlify
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/restaurant_project.git`
+1. Clone the repository: `git clone https://github.com/ochudi/restaurant_project.git`
 2. Open the `index.html` file in your preferred web browser.
 
 ## Contributing
